@@ -10,7 +10,7 @@ open ReactNative;
 type reactNativeNewAppScreenColors = {
   .
   "primary": string,
-  "whiter": string,
+  "white": string,
   "lighter": string,
   "light": string,
   "black": string,
@@ -52,7 +52,7 @@ let styles =
     StyleSheet.create({
       "scrollView": style(~backgroundColor=colors##lighter, ()),
       "engine": style(~position=`absolute, ~right=0.->dp, ()),
-      "body": style(~backgroundColor=colors##whiter, ()),
+      "body": style(~backgroundColor=colors##white, ()),
       "sectionContainer":
         style(~marginTop=32.->dp, ~paddingHorizontal=24.->dp, ()),
       "sectionTitle":
